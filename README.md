@@ -67,7 +67,7 @@ $ cast --help
 
 ============
 
-Type of Stablecoin:
+### Type of Stablecoin:
 
 1. Relative Stability: Anchored or Pegged -> 1$
   1.1. Use Chainlink price feed
@@ -78,7 +78,25 @@ Type of Stablecoin:
    3.1. wETH
    3.2. wBTC
 
-===
+============
 
-packages:
-forge install openzeppelin/openzeppelin-contracts --no-commit
+// Layout of Contract:
+// version
+// imports
+// errors
+// interfaces, libraries, contracts
+// Type declarations
+// State variables
+// Events
+// Modifiers
+// Functions
+
+// Layout of Functions:
+// constructor
+// receive function (if exists)
+// fallback function (if exists)
+// external
+// public
+// internal
+// private
+// view & pure
